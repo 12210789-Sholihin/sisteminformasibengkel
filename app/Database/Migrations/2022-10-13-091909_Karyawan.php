@@ -19,7 +19,7 @@ class Karyawan extends Migration
             'sandi' => [ 'type' => 'varchar', 'constraint' =>60],
             'token_reset' => [ 'type' => 'varchar', 'constraint' =>10],
             'level' => [ 'type' => 'enum("MAN", "ADM", "SA", "MON")' ],
-            'foto' => [ 'type' => 'varbinary', 'constraint' =>255], 
+            'foto' => [ 'type' => 'varinary', 'constraint' =>255], 
             'created_at' => [ 'type' => 'datetime'],
             'updated_at' => [ 'type' => 'datetime'],
             'last_login' => [ 'type' => 'datetime'], 
