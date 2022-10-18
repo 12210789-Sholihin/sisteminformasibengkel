@@ -1,6 +1,57 @@
 {
     "packages": [
         {
+            "name": "agoenxz21/datatables",
+            "version": "v1.0.2",
+            "version_normalized": "1.0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/agoenxz2186/datatable.git",
+                "reference": "d20b65280b5840b2efaab04b4aa4603b946306ff"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/agoenxz2186/datatable/zipball/d20b65280b5840b2efaab04b4aa4603b946306ff",
+                "reference": "d20b65280b5840b2efaab04b4aa4603b946306ff",
+                "shasum": ""
+            },
+            "require": {
+                "codeigniter4/framework": "^4",
+                "php": ">=7.2"
+            },
+            "time": "2022-10-05T04:41:31+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Agoenxz21\\Datatables\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Agung Sasongko",
+                    "email": "agoenxz21@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Library CI4 untuk menyajikan data pada jQuery DataTable",
+            "keywords": [
+                "CI4",
+                "codeigniter4",
+                "datatable",
+                "library"
+            ],
+            "support": {
+                "issues": "https://github.com/agoenxz2186/datatable/issues",
+                "source": "https://github.com/agoenxz2186/datatable/tree/v1.0.2"
+            },
+            "install-path": "../agoenxz21/datatables"
+        },
+        {
             "name": "codeigniter4/framework",
             "version": "v4.2.7",
             "version_normalized": "4.2.7.0",
