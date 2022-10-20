@@ -15,7 +15,7 @@ class Kendaraan extends Migration
             'jeniskendaraan_id' => [ 'type' => 'int', 'constrain' => 10, 'not null' => true, 'unsigned' => true], 
             'no_pol'      => [ 'type' => 'varchar', 'constraint' =>12 ],
             'tahun'  => [ 'type' => 'year', 'constraint' =>4 ],
-            'warankendaraan_id' => [ 'type' => 'int', 'constraint' =>10, 'unsigned' =>true],
+            'warnakendaraan_id' => [ 'type' => 'int', 'constraint' =>10, 'unsigned' =>true],
             'created_at' => [ 'type' => 'datetime'],
             'updated_at' => [ 'type' => 'datetime'],
             'deleted_at' => [ 'type' => 'datetime'], 

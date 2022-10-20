@@ -7,7 +7,7 @@ use CodeIgniter\Model;
 class Pembayaran extends Model
 {
     protected $DBGroup          = 'default';
-    protected $table            = 'pembayaran';
+    protected $table            = 'tabelpembayaran';
     protected $primaryKey       = 'id';
     protected $useAutoIncrement = true;
     protected $insertID         = 0;
@@ -17,7 +17,7 @@ class Pembayaran extends Model
     protected $allowedFields    = [];
 
     // Dates
-    protected $useTimestamps = false;
+    protected $useTimestamps = true;
     protected $dateFormat    = 'datetime';
     protected $createdField  = 'created_at';
     protected $updatedField  = 'updated_at';
