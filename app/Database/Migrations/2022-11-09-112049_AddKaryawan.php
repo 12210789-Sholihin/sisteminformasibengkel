@@ -4,11 +4,10 @@ namespace App\Database\Migrations;
 
 use CodeIgniter\Database\Migration;
 
-class Karyawan extends Migration
+class AddKaryawan extends Migration
 {
     public function up()
     {
-        
         $this->forge->addfield([
             'id'            => [ 'type' => 'int', 'constraint' =>10, 'unsigned'=> true,'not null' => true, 'auto_increment' => true],
             'nama_lengkap'    => [ 'type' => 'varchar', 'constraint' => 60, 'not null' => true],

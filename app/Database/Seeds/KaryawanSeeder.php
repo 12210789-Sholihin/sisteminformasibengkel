@@ -15,10 +15,10 @@ class KaryawanSeeder extends Seeder
             'nohp' => '089564378932',
             'alamat' => 'Adisucipto',
             'kota' => 'Pontianak',
-            'sandi' => '',
-            'token_reset' => '',
+            'sandi' => '12345',
+            'token_reset' => 'qwerty',
             'level' => 'MAN',
-            'foto' => '',
+            'foto' => 'hgvgyhvgh',
         ]);
         echo "hasil insert $id";
     }
